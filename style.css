@@ -53,20 +53,30 @@ body {
   background-color: rgb(255, 255, 255);
   width: auto;
   display: flex;
+  margin-top: 60px;
 }
 .highlight-left {
-  width: 35%;
+  width: 40%;
   font-size: 30px;
-  margin-left: 10%;
-  margin-right: 5%;
+  margin-left: 13%;
+  margin-right: 0%;
   color: rgb(0, 0, 0);
   align-items: center;
 }
 .highlight-right {
-  width: 44%;
+  width: 40%;
 }
 .highlight img {
-  width: 100%;
-  margin-left: 3%;
-  margin-right: 3%;
+  width: 80%;
+  margin-top: 40px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.website-info {
+  margin-top: 90px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.website-info img {
+  width: 300px;
 }
