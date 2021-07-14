@@ -189,4 +189,16 @@ body {
 }
 .website-info img {
   width: 300px;
+  margin-bottom: 25px;
+}
+.social-icons {
+  color: #707070;
+  font-size: 25px;
+}
+.social-icons i {
+  margin: 2px;
+}
+.copyright {
+  margin-top: 5px;
+  margin-bottom: 10px;
 }
