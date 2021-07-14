@@ -9,8 +9,6 @@ body {
   font-size: 25px;
   color: white;
   padding: 5%;
-  position: relative;
-  /* animation: mymove 5s infinite; */
 }
 @keyframes mymove {
   from {
@@ -27,12 +25,24 @@ body {
   color: white;
   padding: 5%;
   position: relative;
-  animation: mymove 3s infinite;
+  animation: mymove 3s;
 }
 .top-section {
   background-color: rgb(36, 33, 170);
   width: auto;
   display: flex;
+  padding-bottom: 20px;
+}
+@media only screen and (max-width: 900px) {
+  .top-section {
+    background-color: rgb(151, 0, 189);
+  }
+}
+@media only screen and (max-width: 600px) {
+  .top-section {
+    background-color: rgb(255, 168, 55);
+    display: grid;
+  }
 }
 .top-section-left {
   width: 35%;
@@ -42,13 +52,35 @@ body {
   color: azure;
   align-items: center;
 }
+@media only screen and (max-width: 600px) {
+  .top-section-left {
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 40px;
+    color: blue;
+  }
+}
 .top-section-right {
   width: 44%;
 }
+@media only screen and (max-width: 600px) {
+  .top-section-right {
+    width: 80%;
+    display: grid;
+  }
+}
 .top-section-right img {
   width: 100%;
+  margin-top: 20px;
   margin-left: 3%;
   margin-right: 3%;
+}
+@media only screen and (max-width: 600px) {
+  .top-section-right img {
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 10%;
+  }
 }
 .players-section {
   width: 80%;
@@ -57,6 +89,16 @@ body {
   margin-right: 10%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+}
+@media only screen and (max-width: 900px) {
+  .players-section {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media only screen and (max-width: 600px) {
+  .players-section {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 .player {
   text-align: justify;
@@ -74,6 +116,11 @@ body {
   display: flex;
   margin-top: 60px;
 }
+@media only screen and (max-width: 600px) {
+  .highlight {
+    display: grid;
+  }
+}
 .highlight-left {
   width: 40%;
   font-size: 30px;
@@ -82,14 +129,37 @@ body {
   color: rgb(0, 0, 0);
   align-items: center;
 }
+@media only screen and (max-width: 600px) {
+  .highlight-left {
+    width: 80%;
+    font-size: 30px;
+    margin-left: 13%;
+    margin-right: 0%;
+    color: rgb(0, 0, 0);
+    align-items: center;
+  }
+}
 .highlight-right {
   width: 40%;
+}
+@media only screen and (max-width: 600px) {
+  .highlight-right {
+    width: 80%;
+  }
 }
 .highlight img {
   width: 80%;
   margin-top: 40px;
   margin-left: 5%;
   margin-right: 5%;
+}
+@media only screen and (max-width: 600px) {
+  .highlight img {
+    width: 100%;
+    margin-top: 80px;
+    margin-left: 12%;
+    margin-right: 1%;
+  }
 }
 .website-info {
   margin-top: 90px;
