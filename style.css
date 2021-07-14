@@ -1,0 +1,72 @@
+body {
+  margin: 0%;
+}
+.menu {
+}
+.button {
+  background-color: rgb(253, 45, 114);
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  padding: 5%;
+}
+.top-section {
+  background-color: rgb(36, 33, 170);
+  width: auto;
+  display: flex;
+}
+.top-section-left {
+  width: 35%;
+  font-size: 30px;
+  margin-left: 10%;
+  margin-right: 5%;
+  color: azure;
+  align-items: center;
+}
+.top-section-right {
+  width: 44%;
+}
+.top-section-right img {
+  width: 100%;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+.players-section {
+  width: 80%;
+  margin-top: 50px;
+  margin-left: 10%;
+  margin-right: 10%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.player {
+  text-align: justify;
+  margin: 4%;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  box-shadow: 5px 10px 8px #d8d8d8;
+}
+.player img {
+  width: 100%;
+}
+.highlight {
+  background-color: rgb(255, 255, 255);
+  width: auto;
+  display: flex;
+}
+.highlight-left {
+  width: 35%;
+  font-size: 30px;
+  margin-left: 10%;
+  margin-right: 5%;
+  color: rgb(0, 0, 0);
+  align-items: center;
+}
+.highlight-right {
+  width: 44%;
+}
+.highlight img {
+  width: 100%;
+  margin-left: 3%;
+  margin-right: 3%;
+}
