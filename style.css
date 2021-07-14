@@ -161,6 +161,27 @@ body {
     margin-right: 1%;
   }
 }
+.quick-links {
+  margin: 20px;
+  margin-top: 70px;
+}
+.quick-link-head {
+  text-align: center;
+}
+.link {
+  width: 80%;
+  margin-top: 10px;
+  margin-left: 10%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+}
+.link a {
+  text-decoration: none;
+}
+.link a:hover {
+  color: hotpink;
+}
 .website-info {
   margin-top: 90px;
   text-align: center;
